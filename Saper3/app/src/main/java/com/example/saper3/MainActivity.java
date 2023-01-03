@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     int wiel= 6;
     Random liczba= new Random();
     int miny= liczba.nextInt(3)+5;  //liczba min
-    int l_flag=0;
 
     ArrayList<Integer> X= new ArrayList<>();        //listy współrzędnych min
     ArrayList<Integer> Y= new ArrayList<>();
@@ -139,17 +138,15 @@ public class MainActivity extends AppCompatActivity {
             ImageView flaga = findViewById(Wspolrzedne(w,k,"iv"));
             if (flaga.getVisibility()==View.VISIBLE) {
                 flaga.setVisibility(View.INVISIBLE);
-                for(int i=0; i<l_flag; i++){
+                for(int i=0; i<FlagiX.size(); i++){
                     if(FlagiX.get(i)==w && FlagiY.get(i)==k){
                         FlagiX.remove(i);
                         FlagiY.remove(i);
                     }
                 }
-                l_flag-=1;
             }
             else {
                 flaga.setVisibility(View.VISIBLE);
-                l_flag+=1;
                 FlagiX.add(w);
                 FlagiY.add(k);
             }
@@ -297,7 +294,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void NewGame(View view){
-        l_flag=0;
         int [] ImageViewIds = new int [] {R.id.iv0_0, R.id.iv0_1,R.id.iv0_2,R.id.iv0_3,R.id.iv0_4,R.id.iv0_5,
                 R.id.iv1_0,R.id.iv1_1,R.id.iv1_2,R.id.iv1_3,R.id.iv1_4,R.id.iv1_5,
                 R.id.iv2_0, R.id.iv2_1,R.id.iv2_2,R.id.iv2_3,R.id.iv2_4,R.id.iv2_5,
@@ -324,6 +320,8 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer.start();
         CheckBox checkBox = findViewById(R.id.checkBox);
         checkBox.setChecked(false);
+        FlagiY.clear();
+        FlagiX.clear();
 
     }
 }
