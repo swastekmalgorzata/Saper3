@@ -115,15 +115,15 @@ public class MainActivity extends AppCompatActivity {
             if (FlagiX.get(b) == w && FlagiY.get(b)== k ){
                 FlagiX.remove(b);
                 FlagiY.remove(b);
-                //falgi niewidxaone
             }
             else {
                 FlagiX.add(w);
                 FlagiY.add(k);
-                //flagi widxione
             }
         }
     }
+
+
     boolean znalezione() {
         int l = 0;
         for (int b = 0; b < FlagiX.size(); b++){
@@ -182,10 +182,8 @@ public class MainActivity extends AppCompatActivity {
         if (flaga == true){
             Postaw(w, k);
             // obrazek flagi
-            int wsp=Wspolrzedne(w, k, "t");
-            TextView iloscBomb=(TextView)findViewById(wsp);
-            iloscBomb.setText("Flaga");
-            iloscBomb.setVisibility(View.VISIBLE);
+            ImageView flaga = findViewById(Wspolrzedne(w,k,"iv"));
+            flaga.setVisibility(View.VISIBLE);
         }
         else{
             if (sprawdz(w, k) == true){
@@ -279,9 +277,18 @@ public class MainActivity extends AppCompatActivity {
                 R.id.i3_0,R.id.i3_1,R.id.i3_2,R.id.i3_3,R.id.i3_4,R.id.i3_5,
                 R.id.i4_0, R.id.i4_1,R.id.i4_2,R.id.i4_3,R.id.i4_4,R.id.i4_5,
                 R.id.i5_0,R.id.i5_1,R.id.i5_2,R.id.i5_3,R.id.i5_4,R.id.i5_5};
+        int [] ImageViewIds = new int [] {R.id.iv0_0, R.id.iv0_1,R.id.iv0_2,R.id.iv0_3,R.id.iv0_4,R.id.iv0_5,
+                R.id.iv1_0,R.id.iv1_1,R.id.iv1_2,R.id.iv1_3,R.id.iv1_4,R.id.iv1_5,
+                R.id.iv2_0, R.id.iv2_1,R.id.iv2_2,R.id.iv2_3,R.id.iv2_4,R.id.iv2_5,
+                R.id.iv3_0,R.id.iv3_1,R.id.iv3_2,R.id.iv3_3,R.id.iv3_4,R.id.iv3_5,
+                R.id.iv4_0, R.id.iv4_1,R.id.iv4_2,R.id.iv4_3,R.id.iv4_4,R.id.iv4_5,
+                R.id.iv5_0,R.id.iv5_1,R.id.iv5_2,R.id.iv5_3,R.id.iv5_4,R.id.iv5_5};
 
         if (s == "t"){
             id = TextIds[n];
+        }
+        else if (s == "iv"){
+            id = ImageViewIds[n];
         }
         else if (s == "i"){
             id = ImageIds[n];
