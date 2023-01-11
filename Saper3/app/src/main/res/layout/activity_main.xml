@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/galaxy"
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
@@ -27,321 +28,322 @@
             android:id="@+id/i0.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i0.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i2.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i2.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i2.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i2.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i2.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i0.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="3"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i0.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="5"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i0.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="4"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i0.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="0"
             app:layout_row="2"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i1.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco"
+            />
 
         <TextView
             android:id="@+id/t0.0"
@@ -351,7 +353,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.0"
@@ -360,47 +363,48 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <ImageButton
             android:id="@+id/i2.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i3.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i4.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
         <ImageButton
             android:id="@+id/i5.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="#9C3838"
+            android:background="#090909"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="0"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            app:srcCompat="@drawable/disco" />
 
 
         <TextView
@@ -408,6 +412,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="1" />
@@ -419,7 +424,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t0.3"
@@ -428,7 +434,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t0.4"
@@ -437,7 +444,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t0.5"
@@ -446,7 +454,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t.1.0"
@@ -456,7 +465,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.1"
@@ -466,7 +476,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="1" />
+            app:layout_row="1"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.2"
@@ -475,7 +486,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.3"
@@ -484,7 +496,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.4"
@@ -493,7 +506,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t1.5"
@@ -502,7 +516,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.0"
@@ -512,7 +527,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.1"
@@ -522,7 +538,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="1" />
+            app:layout_row="1"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.2"
@@ -531,7 +548,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.3"
@@ -540,7 +558,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.4"
@@ -549,7 +568,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t2.5"
@@ -558,7 +578,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.0"
@@ -568,7 +589,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.1"
@@ -578,7 +600,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="1" />
+            app:layout_row="1"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.2"
@@ -587,7 +610,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.3"
@@ -596,7 +620,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.4"
@@ -605,7 +630,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t3.5"
@@ -614,7 +640,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.0"
@@ -624,7 +651,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.1"
@@ -634,7 +662,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="1" />
+            app:layout_row="1"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.2"
@@ -643,7 +672,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.3"
@@ -652,7 +682,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.4"
@@ -661,7 +692,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t4.5"
@@ -670,7 +702,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.0"
@@ -679,7 +712,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.1"
@@ -689,7 +723,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="1" />
+            app:layout_row="1"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.2"
@@ -698,7 +733,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="2" />
+            app:layout_row="2"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.3"
@@ -707,7 +743,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="3" />
+            app:layout_row="3"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.4"
@@ -716,7 +753,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="4" />
+            app:layout_row="4"
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/t5.5"
@@ -725,7 +763,8 @@
             android:text="TextView"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="5" />
+            app:layout_row="5"
+            android:textColor="@color/white"/>
 
         <ImageView
             android:id="@+id/iv0.0"
@@ -1061,7 +1100,8 @@
         android:layout_marginTop="55dp"
         android:layout_marginEnd="24dp"
         android:checked="false"
-        android:text="Stawianie Flag"
+        android:text="STAWIANIE FLAGI"
+        android:textColor="#FAF7F7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.547"
@@ -1081,7 +1121,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/boom" />
-
     <Button
         android:id="@+id/newGame"
         android:layout_width="344dp"

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -203,15 +204,23 @@ public class MainActivity extends AppCompatActivity {
                     Resources r = getResources();
                     otoczenie = Integer.toString(m);
                     int wsp=Wspolrzedne(w, k, "t");
+                    int wspObrazka =Wspolrzedne(w,k,"i");
                     TextView iloscBomb=(TextView)findViewById(wsp);
+                    ImageButton obrazek =(ImageButton) findViewById(wspObrazka);
                     iloscBomb.setText(otoczenie);
                     iloscBomb.setVisibility(View.VISIBLE);
+                    obrazek.setVisibility(View.INVISIBLE);
+
                 }
                 else{
                     int wsp=Wspolrzedne(w, k, "t");
+                    int wspObrazka =Wspolrzedne(w,k,"i");
                     TextView iloscBomb=(TextView)findViewById(wsp);
+                    ImageButton obrazek =(ImageButton) findViewById(wspObrazka);
                     iloscBomb.setText("pusto");
                     iloscBomb.setVisibility(View.VISIBLE);
+                    obrazek.setVisibility(View.INVISIBLE);
+
                 }
             }
         }
@@ -300,6 +309,12 @@ public class MainActivity extends AppCompatActivity {
                 R.id.iv3_0,R.id.iv3_1,R.id.iv3_2,R.id.iv3_3,R.id.iv3_4,R.id.iv3_5,
                 R.id.iv4_0, R.id.iv4_1,R.id.iv4_2,R.id.iv4_3,R.id.iv4_4,R.id.iv4_5,
                 R.id.iv5_0,R.id.iv5_1,R.id.iv5_2,R.id.iv5_3,R.id.iv5_4,R.id.iv5_5};
+        int [] ImageButtonIds = new int [] {R.id.i0_0, R.id.i0_1, R.id.i0_2, R.id.i0_3, R.id.i0_4, R.id.i0_5,
+                R.id.i1_0, R.id.i1_1, R.id.i1_2, R.id.i1_3, R.id.i1_4, R.id.i1_5,
+                R.id.i2_0, R.id.i2_1, R.id.i2_2, R.id.i2_3, R.id.i2_4, R.id.i2_5,
+                R.id.i3_0, R.id.i3_1, R.id.i3_2, R.id.i3_3, R.id.i3_4, R.id.i3_5,
+                R.id.i4_0, R.id.i4_1, R.id.i4_2, R.id.i4_3, R.id.i4_4, R.id.i4_5,
+                R.id.i5_0, R.id.i5_1, R.id.i5_2, R.id.i5_3, R.id.i5_4, R.id.i5_5};
         int [] TextIds = new int [] {R.id.t0_0, R.id.t0_1,R.id.t0_2,R.id.t0_3,R.id.t0_4,R.id.t0_5,
                 R.id.t1_0,R.id.t1_1,R.id.t1_2,R.id.t1_3,R.id.t1_4,R.id.t1_5,
                 R.id.t2_0, R.id.t2_1,R.id.t2_2,R.id.t2_3,R.id.t2_4,R.id.t2_5,
@@ -311,7 +326,10 @@ public class MainActivity extends AppCompatActivity {
             tekst.setVisibility(View.INVISIBLE);
             ImageView image=(ImageView)findViewById(ImageViewIds[i]);
             image.setVisibility(View.INVISIBLE);
+            ImageButton obrazki=(ImageButton)findViewById(ImageButtonIds[i]);
+            obrazki.setVisibility(View.VISIBLE);
         }
+
         Miny();
         ImageView Boom = findViewById(R.id.gif);
         Boom.setVisibility(View.INVISIBLE);
