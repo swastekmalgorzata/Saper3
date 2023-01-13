@@ -1,5 +1,6 @@
 package com.example.saper3;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -161,7 +162,9 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer.pause();
                 boom_sound.start();
                 Button newGame = findViewById(R.id.newGame);
+                Button menu = findViewById(R.id.Menu);
                 newGame.setVisibility(View.VISIBLE);
+                menu.setVisibility(View.VISIBLE);
 
                 int wsp=Wspolrzedne(w, k, "t");
                 TextView iloscBomb=(TextView)findViewById(wsp);
@@ -232,7 +235,9 @@ public class MainActivity extends AppCompatActivity {
             mediaPlayer.pause();
             win.start();
             Button newGame = findViewById(R.id.newGame);
+            Button menu = findViewById(R.id.Menu);
             newGame.setVisibility(View.VISIBLE);
+            menu.setVisibility(View.VISIBLE);
         }
     }
 
@@ -334,12 +339,18 @@ public class MainActivity extends AppCompatActivity {
         ImageView Boom = findViewById(R.id.gif);
         Boom.setVisibility(View.INVISIBLE);
         Button newGame = findViewById(R.id.newGame);
+        Button menu = findViewById(R.id.Menu);
         newGame.setVisibility(View.INVISIBLE);
+        menu.setVisibility(View.INVISIBLE);
         mediaPlayer.start();
         CheckBox checkBox = findViewById(R.id.checkBox);
         checkBox.setChecked(false);
         FlagiY.clear();
         FlagiX.clear();
 
+    }
+    public void Menu(View view){
+        Intent intent = new Intent(MainActivity.this, Menu.class);
+        startActivity(intent);
     }
 }
