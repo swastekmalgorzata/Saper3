@@ -19,17 +19,25 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class Game extends AppCompatActivity {
 
+    Menu menu = new Menu();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Miny();
-        mediaPlayer = MediaPlayer.create(this, R.raw.sound);
-        boom_sound=MediaPlayer.create(this, R.raw.sound2);
-        win=MediaPlayer.create(this, R.raw.sound3);
-        mediaPlayer.start();
+            super.onCreate(savedInstanceState);
+
+            if (menu.quit == true){
+                System.exit(0);
+            }
+            else {
+                setContentView(R.layout.activity_main);
+                Miny();
+                mediaPlayer = MediaPlayer.create(this, R.raw.sound);
+                boom_sound = MediaPlayer.create(this, R.raw.sound2);
+                win = MediaPlayer.create(this, R.raw.sound3);
+                mediaPlayer.start();
+            }
+
     }
     MediaPlayer boom_sound;
     MediaPlayer mediaPlayer;
@@ -350,7 +358,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void Menu(View view){
-        Intent intent = new Intent(MainActivity.this, Menu.class);
+        Intent intent = new Intent(Game.this, Menu.class);
         startActivity(intent);
+        System.exit(0);
     }
+
 }

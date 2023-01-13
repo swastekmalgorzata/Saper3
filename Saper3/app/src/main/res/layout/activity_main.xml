@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/galaxy"
-    tools:context=".MainActivity">
+    tools:context=".Game">
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout"
@@ -1127,7 +1127,7 @@
         android:id="@+id/newGame"
         android:layout_width="172dp"
         android:layout_height="88dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginBottom="52dp"
         android:backgroundTint="#FFEB3B"
         android:fontFamily="sans-serif"
         android:onClick="NewGame"
@@ -1138,7 +1138,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gif"
         app:layout_constraintVertical_bias="0.0" />
@@ -1159,6 +1159,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.104"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gif"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
