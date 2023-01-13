@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Game extends AppCompatActivity {
@@ -103,7 +104,7 @@ public class Game extends AppCompatActivity {
     }
 
 
-    boolean wygrana(int w, int k) {                             // sprawdzamy czy wszystkie pola poza minami zostały kliknięte
+    boolean wygrana(int w, int k) {                 // sprawdzamy czy wszystkie pola poza minami zostały kliknięte
         int [] TextIds = new int [] {R.id.t0_0, R.id.t0_1,R.id.t0_2,R.id.t0_3,R.id.t0_4,R.id.t0_5,
                 R.id.t1_0,R.id.t1_1,R.id.t1_2,R.id.t1_3,R.id.t1_4,R.id.t1_5,
                 R.id.t2_0, R.id.t2_1,R.id.t2_2,R.id.t2_3,R.id.t2_4,R.id.t2_5,
@@ -111,25 +112,18 @@ public class Game extends AppCompatActivity {
                 R.id.t4_0, R.id.t4_1,R.id.t4_2,R.id.t4_3,R.id.t4_4,R.id.t4_5,
                 R.id.t5_0,R.id.t5_1,R.id.t5_2,R.id.t5_3,R.id.t5_4,R.id.t5_5};
         if (sprawdz(w, k) == false) {               //jeśli nie odkryto miny
-
-            if (FlagiX.size() == miny){
-                return znalezione();
-            }
-
-            else {
-                int l = 0;
-                for (int a = 0; a < TextIds.length; a++) {                  //liczymy pola odblokowane
-                    TextView tekst=(TextView)findViewById(TextIds[a]);
-                    if (tekst.getVisibility() == View.VISIBLE){
-                        l++;
-                    }
+            int l = 0;
+            for (int a = 0; a < TextIds.length; a++) {                  //liczymy pola odblokowane
+                TextView tekst=(TextView)findViewById(TextIds[a]);
+                if (tekst.getVisibility() == View.INVISIBLE){
+                    l++;
                 }
-
-                if (l == TextIds.length - miny) {                              //i liczba min jest równa liczbie odblokowanych przycisków
-                    return true;                                    // zwraca true (wygrana)
-                }
-                else return false;
             }
+            if (l == miny) {         //i liczba min jest równa liczbie nieodkrytych przycisków
+                Log.i("liczba", "się zgadza");
+                return true;                                    // zwraca true (wygrana)
+            }
+            else return false;
         }
         else{
             return false;

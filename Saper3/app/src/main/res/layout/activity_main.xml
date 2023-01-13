@@ -342,38 +342,39 @@
             android:onClick="Klikniecie"
             app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/disco"
-            />
+            app:srcCompat="@drawable/disco" />
 
         <TextView
             android:id="@+id/t0.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t1.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <ImageButton
             android:id="@+id/i2.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="#090909"
+            android:gravity="center"
             android:onClick="Klikniecie"
             app:layout_column="2"
             app:layout_row="0"
@@ -381,10 +382,10 @@
 
         <ImageButton
             android:id="@+id/i3.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="#090909"
+            android:gravity="center"
             android:onClick="Klikniecie"
             app:layout_column="3"
             app:layout_row="0"
@@ -392,10 +393,10 @@
 
         <ImageButton
             android:id="@+id/i4.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="#090909"
+            android:gravity="center"
             android:onClick="Klikniecie"
             app:layout_column="4"
             app:layout_row="0"
@@ -403,10 +404,10 @@
 
         <ImageButton
             android:id="@+id/i5.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="#090909"
+            android:gravity="center"
             android:onClick="Klikniecie"
             app:layout_column="5"
             app:layout_row="0"
@@ -415,9 +416,10 @@
 
         <TextView
             android:id="@+id/t0.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
             android:textColor="@color/white"
             android:visibility="invisible"
@@ -426,674 +428,743 @@
 
         <TextView
             android:id="@+id/t0.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
             android:text="TextView"
+            android:background="#48000000"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t0.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t0.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t0.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="0"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <TextView
             android:id="@+id/t.1.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t1.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="1"
-            android:textColor="@color/white"/>
+            app:layout_row="1" />
 
         <TextView
             android:id="@+id/t1.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t1.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t1.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t1.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="1"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <TextView
             android:id="@+id/t2.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="58dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t2.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="1"
-            android:textColor="@color/white"/>
+            app:layout_row="1" />
 
         <TextView
             android:id="@+id/t2.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t2.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t2.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t2.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="2"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <TextView
             android:id="@+id/t3.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="59dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t3.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="1"
-            android:textColor="@color/white"/>
+            app:layout_row="1" />
 
         <TextView
             android:id="@+id/t3.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t3.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t3.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t3.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="3"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <TextView
             android:id="@+id/t4.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t4.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="1"
-            android:textColor="@color/white"/>
+            app:layout_row="1" />
 
         <TextView
             android:id="@+id/t4.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t4.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t4.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t4.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="4"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <TextView
             android:id="@+id/t5.0"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="0"
-            android:textColor="@color/white"/>
+            app:layout_row="0" />
 
         <TextView
             android:id="@+id/t5.1"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:onClick="Klikniecie"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="1"
-            android:textColor="@color/white"/>
+            app:layout_row="1" />
 
         <TextView
             android:id="@+id/t5.2"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="2"
-            android:textColor="@color/white"/>
+            app:layout_row="2" />
 
         <TextView
             android:id="@+id/t5.3"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="3"
-            android:textColor="@color/white"/>
+            app:layout_row="3" />
 
         <TextView
             android:id="@+id/t5.4"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="4"
-            android:textColor="@color/white"/>
+            app:layout_row="4" />
 
         <TextView
             android:id="@+id/t5.5"
-            android:gravity="center"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:gravity="center"
+            android:background="#48000000"
             android:text="TextView"
+            android:textColor="@color/white"
             android:visibility="invisible"
             app:layout_column="5"
-            app:layout_row="5"
-            android:textColor="@color/white"/>
+            app:layout_row="5" />
 
         <ImageView
             android:id="@+id/iv0.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv0.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv0.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv0.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv0.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv0.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="0"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv1.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="1"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv2.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="2"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv3.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="3"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv4.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="4"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.0"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="0"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.1"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="1"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.2"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="2"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.3"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="3"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.4"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="4"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
+
         <ImageView
             android:id="@+id/iv5.5"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:visibility="invisible"
             app:layout_column="5"
             app:layout_row="5"
-            android:visibility="invisible"
             app:srcCompat="@drawable/redflag" />
 
 
@@ -1101,14 +1172,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350dp"
-        android:layout_height="93dp"
+        android:layout_width="400dp"
+        android:layout_height="82dp"
+        android:background="#48000000"
         android:fontFamily="@font/akaya_telivigala"
         android:gravity="center"
-        android:text="Odkrywaj planszę, by znaleźć miny\n i oznaczyć ich położenie flagą. \nUważaj by na nich nie stanąć!!"
+        android:text="Odkrywaj planszę, ale uważaj na miny!!\nIch położenie możesz oznaczyć gwiazdkami.\n Odkryj wszystkie pola bez min, by wygrać :D"
         android:textAlignment="center"
         android:textColor="#9C27B0"
-        android:textSize="21sp"
+        android:textSize="20sp"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -1124,7 +1196,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="55dp"
         android:onClick="Klikniecie"
-        android:text="flaga"
+        android:text="Gwiazdka"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -1142,7 +1214,7 @@
         android:layout_marginEnd="24dp"
         android:checked="false"
         android:clickable="false"
-        android:text="STAWIANIE FLAGI"
+        android:text="STAWIANIE GWIAZDKI"
         android:textColor="#FAF7F7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
