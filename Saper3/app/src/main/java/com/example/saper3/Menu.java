@@ -8,7 +8,6 @@ import android.view.View;
 import androidx.annotation.Nullable;
 
 public class Menu extends Activity {
-    public boolean quit;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,8 +23,7 @@ public class Menu extends Activity {
     }
 
     public void Quit(View view){
-        quit = true;
-        finish();
+        finishAffinity();
         System.exit(0);
     }
 }
